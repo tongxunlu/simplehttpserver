@@ -3,9 +3,9 @@ REM 设置控制台代码页为 UTF-8 编码
 chcp 65001 >nul
 REM ====================================================================================
 REM 端口,绝对路径
-REM node simplehttpserver.js 7001 G:\project_home\2023-o2o+yongyou\wuliu-yueche\
+REM node simplehttpserver.js 7001 G:\path\
 REM 端口,相对路径
-REM node simplehttpserver.js 7001 ../wuliu-yueche/
+REM node simplehttpserver.js 7001 ../path/
 REM ====================================================================================
 
 REM 判断 Node.js 环境是否安装了 mime 模块,调用 Node.js 解释器执行命令来检查模块是否已安装
